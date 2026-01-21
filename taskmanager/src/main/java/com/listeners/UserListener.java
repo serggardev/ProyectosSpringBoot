@@ -2,6 +2,8 @@ package com.listeners;
 
 import java.time.LocalDate;
 
+import com.model.User;
+
 import jakarta.persistence.PrePersist;
 
 public class UserListener {
