@@ -29,7 +29,7 @@ public class User {
     @Id
     @EqualsAndHashCode.Include
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private String id;
+    private Long id;
 
     @Column(name="user_name", nullable=false, unique=true)
     private String userName;
