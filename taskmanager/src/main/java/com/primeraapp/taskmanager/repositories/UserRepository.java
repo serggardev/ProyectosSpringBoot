@@ -1,8 +1,8 @@
-package com.repositories;
+package com.primeraapp.taskmanager.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.model.User;
+import com.primeraapp.taskmanager.model.User;
 
 public interface UserRepository extends  JpaRepository<User, Long> {
 

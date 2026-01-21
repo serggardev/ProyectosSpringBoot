@@ -1,8 +1,8 @@
-package com.listeners;
+package com.primeraapp.taskmanager.listeners;
 
 import java.time.LocalDate;
 
-import com.model.User;
+import com.primeraapp.taskmanager.model.User;
 
 import jakarta.persistence.PrePersist;
 

@@ -1,6 +1,8 @@
-package com.model;
+package com.primeraapp.taskmanager.model;
 
 import java.time.LocalDate;
+
+import com.primeraapp.taskmanager.listeners.UserListener;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -20,7 +22,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @EqualsAndHashCode(onlyExplicitlyIncluded=true)
-@EntityListeners(com.listeners.UserListener.class)
+@EntityListeners(UserListener.class)
 
 @Entity
 @Table(name="users")
